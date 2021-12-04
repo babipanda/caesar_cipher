@@ -8,6 +8,8 @@ def caesar(start_text, shift_amount, cipher_direction):
   for char in start_text:
     if char in alphabet:
       position = alphabet.index(char)
+      #position of cipher text 
+      # % 26 for char more zan z in the alphabet 
       new_position = (position + shift_amount) % 26
       end_text += alphabet[new_position]
     else:
@@ -24,6 +26,7 @@ while not should_end:
   if direction == 'encode' or direction == 'decode':
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
+    # %26 for shift value more than 26
     shift = shift % 26
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
   else:
