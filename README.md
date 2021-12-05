@@ -15,8 +15,8 @@ The following diagram depicts the working of Caesar cipher algorithm implementat
 
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png">
+    <img src="images/https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png" alt="Logo" width="80" height="80">
   </a>
 </div>
 
