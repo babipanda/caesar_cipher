@@ -11,13 +11,8 @@ The algorithm of Caesar cipher holds the following features −
 
 3.Each letter of plain text is replaced by a letter with some fixed number of positions down with alphabet.
 
-The following diagram depicts the working of Caesar cipher algorithm implementation −
-
-
+The following diagram depicts the working of Caesar cipher algorithm implementation
 ![image](https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png) 
-
-(https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png)
-
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
