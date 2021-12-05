@@ -19,7 +19,7 @@ setup(
   name='src',
   version='0.0.1',
   description='A caesar cipher app and simple python calculator',
-  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  # the URL of your package's home page e.g. github link
   author='Berhanu Dagnew',
   author_email='babipanda.learn@gmail.com',
