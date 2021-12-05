@@ -1,28 +1,47 @@
-# Foobar
+# CAESAR CIPHER
 
-Foobar is a Python library for dealing with word pluralization.
+Caesar cipher is a Python library for dealing with encode and decode.
 
-## Installation
+## Algorithm of Caesar Cipher
+The algorithm of Caesar cipher holds the following features −
+
+1.Caesar Cipher Technique is the simple and easy method of encryption technique.
+
+2.It is simple type of substitution cipher.
+
+3.Each letter of plain text is replaced by a letter with some fixed number of positions down with alphabet.
+
+The following diagram depicts the working of Caesar cipher algorithm implementation −
+
+
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+</div>
+
+(https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png)
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+pip install caesar_cipher coming soon
 ```
 
 ## Usage
 
 ```python
-import foobar
+import caesar_cipher coming soon
 
-# returns 'words'
-foobar.pluralize('word')
+# encoded
+caesar.encode.('hello')
+# returns 'mjqqt'
 
-# returns 'geese'
-foobar.pluralize('goose')
+# decoded
+caesar.decode('mjqqt')
+#returns 'hello'
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+
 ```
 
 ## Contributing
