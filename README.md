@@ -14,7 +14,7 @@ The algorithm of Caesar cipher holds the following features −
 The following diagram depicts the working of Caesar cipher algorithm implementation −
 
 
-![image](https://drive.google.com/uc?export=view&id=1913oZeBZPBNiUuk8gu3ZSbLBA2l_VQtG) 
+![image](https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png) 
 
 (https://www.pythonpool.com/wp-content/uploads/2021/05/image-39-1024x788.png)
 
