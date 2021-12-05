@@ -23,6 +23,7 @@ should_end = False
 while not should_end:
 
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+  #terminate when the user not write in the above format encode or decode
   if direction == 'encode' or direction == 'decode':
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
