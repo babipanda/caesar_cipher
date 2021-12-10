@@ -5,10 +5,13 @@ Copyright (c) 2021 Berhanu Dagnew
 """
  
 from setuptools import setup, find_packages
+# long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
+# this_directory = Path(__file__).parent
+long_description = open('README.md').read()
  
 # See note below for more information about classifiers
 classifiers = [
-  'Development Status :: 5 - Production/Tast',
+  'Development Status :: 5 - Production/Stable',
   'Intended Audience :: Education',
   'Operating System :: POSIX :: Linux',
   'License :: OSI Approved :: MIT License',
@@ -16,10 +19,11 @@ classifiers = [
 ]
  
 setup(
-  name='src',
-  version='0.0.1',
+  name='caesar_cipher_test',
+  version='0.0.7',
   description='A caesar cipher app and simple python calculator',
-  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=long_description,
+  long_description_content_type='text/markdown',
   url='',  # the URL of your package's home page e.g. github link
   author='Berhanu Dagnew',
   author_email='babipanda.learn@gmail.com',
